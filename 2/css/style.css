@@ -1,0 +1,21 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: blanchedalmond;
+  background-color: slategray;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-left: 33%;
+  margin-top: 50px;
+  font-size: 25px;
+  padding-top: 40px;
+  width: 500px;
+  border-radius: 60px;
+  height: 470px;
+  background-color: rgb(97, 135, 240);
+}

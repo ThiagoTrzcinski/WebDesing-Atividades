@@ -1,0 +1,26 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: blanchedalmond;
+  background-color: slategray;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  font-size: 32px;
+}
+
+img {
+  width: 200px;
+  ;
+}

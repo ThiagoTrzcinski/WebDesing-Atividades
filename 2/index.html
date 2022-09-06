@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet" />
+  <title>Atividade Lista</title>
+</head>
+
+<body>
+  <h2>Contato</h2>
+  <form action="">
+    <label for="id_nome">Nome Completo:</label>
+    <input type="text" name="nome" id="id_nome" placeholder="Nome Completo" autofocus required />
+
+    <br /><br />
+    <label for="id_cpf">Assunto:</label>
+    <input type="text" name="assunto" id="id_assunto" placeholder="Assunto" required />
+
+    <br /><br />
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required />
+
+    <br /><br />
+    <label for="senha">Mensagem:</label>
+    <input type="text-area" natexto" id="texto" required>
+
+    <br /><br />
+    <label for="masc">Sexo:</label>
+    <br />
+    <input type="radio" name="sexo" id="masculino" checked />
+    <label for="masc">Masculino</label>
+    <br />
+    <input type="radio" name="sexo" id="feminino" />
+    <label for="fem">Feminino</label>
+    <br />
+    <input type="radio" name="sexo" id="outro" />
+    <label for="indefinido">Outro</label>
+
+    <br /><br />
+    <input type="reset" value="Limpar Formulário" />
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+body a {
+  text-decoration: none;
+}
+
+/* Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 10vw;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  padding: 2vw;
+}
+
+header nav ul li a {
+  color: gray;
+}
+
+/* Header*/
+
+/* Banner*/
+section.Banner h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1vw 0;
+}
+
+section.Banner h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+section.Banner p {
+  font-size: 1.5em;
+  color: black;
+  width: 30vw;
+  margin: 2vw 0 3vw 0;
+}
+
+section.Banner p a {
+  color: white;
+  background: cyan;
+  padding: 15px 30px;
+  border: 1px;
+  border-radius: 13px;
+}
+
+
+main section.Banner {
+  margin-left: 3vw;
+  background: url(../img/fundo.png) no-repeat top right;
+  padding: 13vw 0 25vw 5vw;
+}
+
+/* Banner*/
+
+/* Welcome*/
+main section.Welcome {
+  text-align: center;
+  margin-top: 3vw;
+}
+
+
+
+main section.Welcome h3 {
+  font-size: 2.5rem;
+}
+
+main section.Welcome>p {
+  width: 500px;
+  margin: 15px auto;
+  font-size: 18px;
+}
+
+.opcao {
+  text-align: center;
+  padding: 8px;
+}
+
+.dia {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tabela {
+  margin-left: 12%;
+  margin-top: 30px;
+}
+
+/* Welcome*/
+
+/* Presented*/
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.team-member img {
+  width: 17rem;
+  border: 0.5rem solid greenyellow;
+}
+
+.team-member h4,
+.team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+main section.Presented {
+  text-align: center;
+  margin-top: 6vw;
+}
+
+main section.Presented h3 {
+  font-size: 2.5rem;
+}
+
+main section.Presented>p {
+  width: 500px;
+  margin: 15px auto;
+  font-size: 18px;
+}
+
+main section.Presented ul {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Presented*/
+
+/* Blog*/
+main section.Blog {
+  text-align: center;
+  margin-top: 6vw;
+}
+
+main section.Blog h3 {
+  font-size: 2.5rem;
+}
+
+main section.Blog>p {
+  width: 500px;
+  margin: 15px auto;
+  font-size: 18px;
+}
+
+main section.Blog ul {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main section.Blog ul h4 {
+  margin-top: 15px;
+  color: cyan;
+  font-size: 23px;
+}
+
+main section.Blog ul p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 15px;
+}
+
+main section.Blog ul a {
+  margin-top: 15px;
+  color: black;
+  font-size: 15px;
+}
+
+main section.Blog div {
+  margin-bottom: 40px;
+}
+
+/* Blog*/
